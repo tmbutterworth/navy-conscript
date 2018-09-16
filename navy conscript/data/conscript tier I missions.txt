@@ -182,6 +182,34 @@ mission "Navy Pirate Patrol 3"
 			'Admiral Danforth tells you that he is glad to see you have returned in one piece. A lower ranking intelligence officer quickly collects your ships logs.'
 
 
+mission "Conscript Pirate 1"
+	priority
+	landing
+	name "Destroy <npc>"
+	description "A pirate vessel named <npc> has broken through our defensed in Alnitak and is currently in the <system> system. Destroy it before it can move further into Republic space and return to <planet> for additional orders."
+	to offer
+		has "event: naval conscript earned"
+		has "Navy Pirate Patrol 1: done"
+		has "Navy Pirate Patrol 2: done"
+		has "Navy Pirate Patrol 3: done"
+	source Alnitak
+	destination Alnitak
+	npc kill
+		personality heroic staying nemesis target
+		government Bounty
+		system Saiph
+		fleet
+			names "pirate"
+			variant
+				"Leviathan"
+			variant
+				"Leviathan (Heavy)"
+			variant
+				"Leviathan (Laser)"
+		dialog "The <npc> has been eliminated. You can return to <destination> for additional orders."
+	on complete
+		payment 125000
+		dialog "Admiral Danforth "I am pleased you were able to destroy <npc> before it could move deeper into Republic space. The <ship> is certainly proving itself battle capable." You receive a conscript bonus of <payment>."
 
     
 # Alnitak, Betelgeuse, Nihal, are choke points for northern pirate attacks.

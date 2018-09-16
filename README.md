@@ -10,7 +10,7 @@ So far only the core events, and some other components have been added. There ar
 
 I envisioned three rank tier's for conscript. The Tier's consist of:
 
-**Tier I** starts off collects surveillance and fights pirates in the north. The Lore here has an emphasis on capturing ships and assisting damaged navy ships. This initial phase is to help the player build up their fleet in preparation for war in the south. Then moves to collecting surveillance in the south discovering the moon where the nuclear tests were performed which earns rank of Tier II.
+**Tier I** starts off collecting surveillance and fights pirates in the north. The Lore here has an emphasis on capturing ships and assisting damaged navy ships. This initial phase is to help the player build up their fleet. Tier I then moves to collecting surveillance in the south discovering the moon where the nuclear tests were performed which earns rank of Tier II.
 
 **Tier II** Tier II is war in the south. It will involve capturing systems, destroying some southern pirates that are plundering border republic worlds. This tier will also have the Alpha attack.
 
