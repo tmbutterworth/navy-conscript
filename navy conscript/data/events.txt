@@ -13,7 +13,6 @@ event "conscription announced"
 
 
 mission "conscription announced"
-	priority
 	landing
 	source
 		government "Republic"
@@ -26,7 +25,6 @@ mission "conscription announced"
 
             
 mission "conscription chatter"
-	priority
 	repeat
 	source
 		government "Republic"
@@ -49,7 +47,6 @@ event "naval conscript earned"
 
 
 mission "initial deployment 1"
-	priority
 	landing
 	source
 		government "Republic"
@@ -63,7 +60,6 @@ mission "initial deployment 1"
 
 
 mission "initial deployment 2"
-	priority
 	landing
 	source
 		government "Republic"
@@ -77,7 +73,6 @@ mission "initial deployment 2"
 
 
 mission "initial deployment 3"
-	priority
 	landing
 	source
 		government "Republic"
@@ -91,7 +86,6 @@ mission "initial deployment 3"
 
 
 mission "initial deployment 4"
-	priority
 	landing
 	source
 		government "Republic"
@@ -105,7 +99,6 @@ mission "initial deployment 4"
 
 
 mission "capture of Kornephoros"
-	priority
 	landing
 	source
 		government "Republic"
