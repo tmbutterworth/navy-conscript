@@ -1,1 +1,1 @@
-A plugin to join the republic Navy as a conscript. 
+A plugin to join The Republic Navy as a conscript. 
