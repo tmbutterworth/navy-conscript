@@ -13,7 +13,7 @@ mission "Premium materials to <planet>"
 	repeat
 	deadline
 	description "Deliver <cargo> for a new luxury condominium on <destination> by <date>. Payment is <payment>."
-	cargo "premium materials" 25 50
+	cargo "Premium Materials" 25 50
 	to offer
 		random < 10
 	source
@@ -32,7 +32,7 @@ mission "Mansion materials to <planet>"
 	repeat
 	deadline
 	description "Deliver <cargo> for a new a mansion on <destination> by <date>. Payment is <payment>."
-	cargo "premium materials" 25 50
+	cargo "Premium Materials" 25 50
 	to offer
 		random < 10
 	source
