@@ -15,5 +15,5 @@ outfit "Electron Rifle"
 	"capture attack" .7
 	"capture defense" 1.1
 	"unplunderable" 1
-	description "The electron rifle is state of the art Navy technology developed by the Deep. It is more deadly than a laser rifle and costs more."
+	description "The electron rifle is state of the art technology developed by the Deep for The Navy. It is more deadly than a laser rifle and costs more."
 
