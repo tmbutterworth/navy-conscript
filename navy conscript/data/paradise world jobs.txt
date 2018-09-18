@@ -8,12 +8,13 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-mission "Premium materials to <planet>"
+mission "Premium materials to <planet> 1"
 	job
+	name "Premium materials to <planet>"
 	repeat
 	deadline
 	description "Deliver <cargo> for a new luxury condominium on <destination> by <date>. Payment is <payment>."
-	cargo "Premium Materials" 25 50
+	cargo "premium materials" 25 50
 	to offer
 		random < 10
 	source
@@ -25,14 +26,16 @@ mission "Premium materials to <planet>"
 	on complete
 		payment
 		payment 25000
-		dialog "Your ship is directed to the rear loading dock of a palatial complex where your cargo of premium building materials is unloaded and meticulously inspected. The material inspectors provide your payment of <payment>." 
+		dialog "Your ship is directed to the rear loading dock of a palatial complex where your cargo of premium building materials is unloaded and meticulously inspected. The material inspectors provide your payment of <payment>."
 
-mission "Mansion materials to <planet>"
+
+mission "Premium materials to <planet> 2"
 	job
+	name "Premium materials to <planet>"
 	repeat
 	deadline
 	description "Deliver <cargo> for a new a mansion on <destination> by <date>. Payment is <payment>."
-	cargo "Premium Materials" 25 50
+	cargo "premium materials" 25 50
 	to offer
 		random < 10
 	source
